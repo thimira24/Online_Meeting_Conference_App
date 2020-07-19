@@ -1,0 +1,85 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">eMeet</string>
+    <string name="app_server_url">https://meet.jit.si</string>
+    <string name="app_dynamic_link_url_prefix">https://meetlyapp.page.link</string>
+    <string name="app_deep_link_url">https://meetly.aculix.com/?meetingCode=%1$s</string>
+    <string name="app_deep_link_domain">meetly.aculix.com</string>
+    <string name="app_tagline">Instant video conferences with your family, friends, and colleagues</string>
+    <string name="app_feedback_contact_email">thimiratc@gmail.com</string>
+    <string name="app_privacy_policy_url">https://hellosrilanka123.000webhostapp.com/index.html</string>
+    <string name="app_terms_of_service_url">https://hellosrilanka123.000webhostapp.com/terms.html</string>
+
+    <!-- AdMob -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_id_meeting_history">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_id_create_meeting">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_ad_id_join_meeting">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="app_intro_meeting_title">Start a Meeting</string>
+    <string name="app_intro_meeting_desc">Start or join a video meeting on the go</string>
+    <string name="app_intro_chat_title">Message Your Team</string>
+    <string name="app_intro_chat_desc">Send text messages to your team during the meeting</string>
+    <string name="app_intro_meeting_history_title">Meeting History</string>
+    <string name="app_intro_meeting_history_desc">See the list of your previous meetings and rejoin them anytime.</string>
+
+    <string name="authentication_sign_in_email">Sign in with Email</string>
+    <string name="authentication_sign_in_google">Sign in with Google</string>
+    <string name="authentication_login_canceled">Sign in canceled</string>
+
+    <string name="main_join_meeting">Join Meeting</string>
+    <string name="main_create_meeting">Create Meeting</string>
+    <string name="main_meeting_code">Meeting Code</string>
+    <string name="main_btn_create_meeting">Create</string>
+    <string name="main_enter_meeting_code">Enter Meeting Code</string>
+    <string name="main_btn_join_meeting">JOIN</string>
+    <string name="main_error_meeting_code_length">Minimum length of meeting code allowed is %1$d (Spaces are not counted)</string>
+    <string name="main_share_meeting_code_title">Share meeting code via</string>
+    <string name="main_share_meeting_code_desc">Click on the link below to join the meeting. \n\n%1$s</string>
+    <string name="main_meeting_code_copied">Meeting Code copied from Clipboard</string>
+    <string name="main_empty_clipboard">No Meeting Code found in the Clipboard</string>
+    <string name="main_error_fetch_dynamic_link">Unable to fetch data from the link. Please enter the meeting code manually.</string>
+    <string name="main_error_create_dynamic_link">Error creating Meeting link. Please try again.</string>
+    <string name="main_creating_dynamic_link">Please wait. Creating Meeting link.</string>
+
+    <string name="meeting_history_rejoin">REJOIN</string>
+    <string name="meeting_history_last_joined_time">Last joined %1$s</string>
+    <string name="meeting_history_toolbar_title">Meeting History</string>
+    <string name="meeting_history_delete_meetings">Delete Meetings</string>
+    <string name="meeting_history_empty">You haven\'t joined any meetings yet. Create or Join any meeting from the home screen.</string>
+    <string name="meeting_history_meeting_code_copied">Meeting Code copied to Clipboard</string>
+
+    <string name="profile_sign_out">Sign Out</string>
+    <string name="profile_user_not_authenticated">User not signed in</string>
+    <string name="profile_dark_mode">Dark Mode</string>
+    <string name="profile_send_feedback">Send us a feedback</string>
+    <string name="profile_rate_app">Rate app on Google Play</string>
+    <string name="profile_share_app">Share app</string>
+    <string name="profile_dot_separator">\u2022</string>
+    <string name="profile_feedback_email_subject">Feedback - eMeet</string>
+    <string name="profile_share_app_title">Share app via</string>
+    <string name="profile_share_app_text">Download eMeet, do instant video conferences with your family, friends, and colleagues. \n\nhttps://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="profile_open_source_licenses">Open Source Licenses</string>
+
+    <string name="all_skip">Skip</string>
+    <string name="all_error_internet_connectivity">Please check your internet connectivity and try  again</string>
+    <string name="all_error_unknown">Unknown error occurred. Please try again</string>
+    <string name="all_btn_sign_out">SIGN OUT</string>
+    <string name="all_btn_sign_in">SIGN IN</string>
+    <string name="all_privacy_policy">Privacy Policy</string>
+    <string name="all_terms_of_service">Terms of Service</string>
+    <string name="all_creating_meeting">Please wait, creating meeting</string>
+    <string name="all_joining_meeting">Please wait, joining meeting</string>
+    <string name="all_rejoining_meeting">Please wait, rejoining meeting</string>
+    <string name="all_unauthenticated_user_name">Fellow %1$s user</string>
+    <string name="all_faqs">FAQs</string>
+
+    <string name="faqs_meeting_code_title">Meeting Code</string>
+    <string name="faqs_custom_meeting_code_title">Custom Meeting Code</string>
+    <string name="faqs_end_meeting_title">End Meeting</string>
+    <string name="faqs_password_protection_title">Password Protection</string>
+    <string name="faqs_meeting_code_desc">The meeting code must be at least 10 digits long. Kindly note that the spaces in the meeting code are automatically removed and not considered while calculating the meeting code length. The Meeting code is not case sensitive. For example, the meeting codes ForthComingJournalismsBook and FORTHCOMINGJOURNALISMSBOOK will start the same meeting.</string>
+    <string name="faqs_custom_meeting_code_desc">Instead of using the auto-generated meeting code, you can use your own custom meeting code. It needs to be an alphanumeric code with a length of at least 10 digits. Some examples of valid meeting codes are LatterCritiquesClassifyAlways, HugePersonalitiesSlipNext8745, ForthComingJournalismsBook, etc. Just make sure the meeting code is long enough so that the possibility of some random uninvited people joining the meeting is extremely low.</string>
+    <string name="faqs_end_meeting_desc">A meeting gets created when the first participant joins and is automatically ended when the last one leaves. If someone joins the meeting with the same meeting code again, a brand new meeting is created with the same name and there is no connection to any previous meeting that might have been held with the same name.</string>
+    <string name="faqs_password_protection_desc">You can always password protect the meeting once it has started. However, keep in mind that the password will be reset once the meeting is ended. So make sure to set the password again if a meeting is rejoined after it was ended.</string>
+</resources>

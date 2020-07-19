@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "11895544507",
+    "firebase_url": "https://meeting-app-56821.firebaseio.com",
+    "project_id": "meeting-app-56821",
+    "storage_bucket": "meeting-app-56821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11895544507:android:24f8df792226d99d94a79e",
+        "android_client_info": {
+          "package_name": "lanka.meeting.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11895544507-hs10tk7r0qon8hol240rropnlbuegvde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lanka.meeting.app",
+            "certificate_hash": "b3ebe984434ba4f323bdd116f01b2ea747e1cf67"
+          }
+        },
+        {
+          "client_id": "11895544507-p37n25hugp6fcd6p3vokiglm0malh1dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqnZ-Ai9ggI7Jand68CiSAU0V6ob7hF-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11895544507-p37n25hugp6fcd6p3vokiglm0malh1dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
