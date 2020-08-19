@@ -24,3 +24,5 @@ meetings by browsing the meeting history.
 *Options for the users to rate or review the app directly on the Play Store.<br>
 *Enable/Disable ads inside the app easily.<br>
 *Light & Dark theme options.<br>
+
+***Thimira Dulakshitha**
