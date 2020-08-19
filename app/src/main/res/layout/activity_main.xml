@@ -166,7 +166,7 @@
         android:layout_marginEnd="24dp"
         android:hint="@string/main_meeting_code"
         app:counterEnabled="true"
-        app:endIconDrawable="@drawable/ic_share"
+        app:endIconDrawable="@drawable/ic_baseline_file_copy_24"
         app:endIconMode="custom"
         app:layout_constraintBottom_toTopOf="@+id/btnCreateMeeting"
         app:layout_constraintEnd_toEndOf="parent"

@@ -11,10 +11,10 @@
     <string name="app_terms_of_service_url">https://hellosrilanka123.000webhostapp.com/terms.html</string>
 
     <!-- AdMob -->
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="banner_ad_id_meeting_history">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_ad_id_create_meeting">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstitial_ad_id_join_meeting">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_app_id">ca-app-pub-1707327864102573~2485864901</string>
+    <string name="banner_ad_id_meeting_history">ca-app-pub-1707327864102573/2648149459</string>
+    <string name="interstitial_ad_id_create_meeting">ca-app-pub-1707327864102573/7134189372</string>
+    <string name="interstitial_ad_id_join_meeting">ca-app-pub-1707327864102573/1918162340</string>
 
     <string name="app_intro_meeting_title">Start a Meeting</string>
     <string name="app_intro_meeting_desc">Start or join a video meeting on the go</string>

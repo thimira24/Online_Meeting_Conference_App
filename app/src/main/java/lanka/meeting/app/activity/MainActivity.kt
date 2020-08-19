@@ -1,17 +1,13 @@
 package lanka.meeting.app.activity
 
-import lanka.core.extensions.*
-import lanka.meeting.app.Meetly
-import lanka.meeting.app.R
-import lanka.meeting.app.databinding.ActivityMainBinding
-import lanka.meeting.app.model.Meeting
-import lanka.meeting.app.sharedpref.AppPref
-import lanka.meeting.app.utils.MeetingUtils
-import lanka.meeting.app.viewmodel.MainViewModel
+import android.R.attr.label
+import android.content.ClipData
+import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.widget.doOnTextChanged
@@ -34,9 +30,19 @@ import com.google.firebase.dynamiclinks.ktx.dynamicLinks
 import com.google.firebase.dynamiclinks.ktx.navigationInfoParameters
 import com.google.firebase.dynamiclinks.ktx.shortLinkAsync
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.dialog_profile.*
+import lanka.core.extensions.*
+import lanka.meeting.app.Meetly
+import lanka.meeting.app.R
+import lanka.meeting.app.databinding.ActivityMainBinding
+import lanka.meeting.app.model.Meeting
+import lanka.meeting.app.sharedpref.AppPref
+import lanka.meeting.app.utils.MeetingUtils
+import lanka.meeting.app.viewmodel.MainViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -204,7 +210,7 @@ class MainActivity : AppCompatActivity() {
         binding.tilCodeCreateMeeting.setEndIconOnClickListener {
             if (isMeetingCodeValid(getCreateMeetingCode())) {
                 binding.tilCodeCreateMeeting.error = null
-                toast(getString(R.string.main_creating_dynamic_link))
+                //toast(getString(R.string.main_creating_dynamic_link))
 
                 Firebase.dynamicLinks.shortLinkAsync {
                     link = Uri.parse(getString(R.string.app_deep_link_url, getCreateMeetingCode()))
@@ -220,7 +226,13 @@ class MainActivity : AppCompatActivity() {
                         getString(R.string.main_share_meeting_code_desc, shortDynamicLink)
                     )
                 }.addOnFailureListener {
-                    toast(getString(R.string.main_error_create_dynamic_link))
+                    //toast(getString(R.string.main_error_create_dynamic_link))
+                    var myClip: ClipData? = null
+                    val clipboard: ClipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                    myClip = ClipData.newPlainText("text", etCodeCreateMeeting.text);
+                    clipboard.setPrimaryClip(myClip);
+                    Toast.makeText(this, "Copied Meeting Code", Toast.LENGTH_SHORT).show();
+
                 }
             } else {
                 binding.tilCodeCreateMeeting.error =
